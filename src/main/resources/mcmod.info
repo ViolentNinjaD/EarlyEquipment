@@ -1,0 +1,16 @@
+[
+{
+  "modid": "earlyequipment",
+  "name": "EarlyEquipment",
+  "description": "A mod that adds early game tools and armour to Minecraft!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/ViolentNinjaD/EarlyEquipment",
+  "updateUrl": "",
+  "authorList": ["ViolentNinjaD"],
+  "credits": "Thanks to all the open-source modders out there :D Your projects helped me make this mod.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
