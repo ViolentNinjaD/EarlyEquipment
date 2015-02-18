@@ -4,6 +4,9 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import ninja.earlyequipment.init.EarlyEQItems;
+import ninja.earlyequipment.init.EarlyEQRecipes;
+import ninja.earlyequipment.util.EarlyEQLogger;
 
 import static ninja.earlyequipment.EarlyEquipment.*;
 
@@ -20,18 +23,20 @@ public class EarlyEquipment
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        EarlyEQLogger.info("Items are being registered!");
+        EarlyEQItems.initialiseItems();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        EarlyEQLogger.info("Recipes are being registered!");
+        EarlyEQRecipes.initialiseRecipes();
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        
+
     }
 }
