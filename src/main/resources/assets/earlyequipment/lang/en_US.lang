@@ -1,5 +1,8 @@
 #Items
 item.earlyequipment:bindingCloth.name=Binding Cloth
 
+#Hardened Wood Tools
+item.earlyequipment:hardenedWoodPickaxe.name=Hardened Wood Pickaxe
+
 #CreativeTabs
 itemGroup.earlyequipment=Early Equipment
