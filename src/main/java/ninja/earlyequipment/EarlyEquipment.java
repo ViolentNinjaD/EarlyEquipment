@@ -31,6 +31,9 @@ public class EarlyEquipment
     {
         EarlyEQLogger.info("Items are being registered!");
         EarlyEQItems.initialiseItems();
+
+        EarlyEQLogger.info("Client events are being registered!");
+        proxy.registerClientEvents();
     }
 
     @Mod.EventHandler
