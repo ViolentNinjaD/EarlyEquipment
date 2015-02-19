@@ -1,11 +1,14 @@
 package ninja.earlyequipment;
 
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import ninja.earlyequipment.init.EarlyEQItems;
 import ninja.earlyequipment.init.EarlyEQRecipes;
+import ninja.earlyequipment.proxy.IProxy;
+import ninja.earlyequipment.reference.Reference;
 import ninja.earlyequipment.util.EarlyEQLogger;
 
 import static ninja.earlyequipment.EarlyEquipment.*;
@@ -19,6 +22,9 @@ public class EarlyEquipment
 
     @Mod.Instance(MOD_ID)
     public static EarlyEquipment instance;
+
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.SERVER_PROXY)
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
