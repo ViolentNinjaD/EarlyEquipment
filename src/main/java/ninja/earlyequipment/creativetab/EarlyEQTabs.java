@@ -3,6 +3,7 @@ package ninja.earlyequipment.creativetab;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import ninja.earlyequipment.EarlyEquipment;
+import ninja.earlyequipment.init.EarlyEQItems;
 
 public class EarlyEQTabs
 {
@@ -11,7 +12,7 @@ public class EarlyEQTabs
         @Override
         public Item getTabIconItem()
         {
-            return null;
+            return EarlyEQItems.bindingCloth;
         }
     };
 }
