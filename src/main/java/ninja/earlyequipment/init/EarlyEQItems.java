@@ -1,12 +1,8 @@
 package ninja.earlyequipment.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import ninja.earlyequipment.item.ItemBindingCloth;
-import ninja.earlyequipment.item.ItemEarlyEQ;
-import ninja.earlyequipment.item.ItemEarlyEQPick;
-import ninja.earlyequipment.item.ItemEarlyEQSword;
-import ninja.earlyequipment.item.hardenedwood.ItemHardenedWoodPickaxe;
-import ninja.earlyequipment.item.hardenedwood.ItemHardenedWoodSword;
+import ninja.earlyequipment.item.*;
+import ninja.earlyequipment.item.hardenedwood.*;
 import ninja.earlyequipment.reference.Names;
 
 public class EarlyEQItems
@@ -15,6 +11,9 @@ public class EarlyEQItems
 
     public static final ItemEarlyEQPick hardenedWoodPickaxe = new ItemHardenedWoodPickaxe();
     public static final ItemEarlyEQSword hardenedWoodSword = new ItemHardenedWoodSword();
+    public static final ItemEarlyEQAxe hardenedWoodAxe = new ItemHardenedWoodAxe();
+    public static final ItemEarlyEQShovel hardenedWoodShovel = new ItemHardenedWoodShovel();
+    public static final ItemEarlyEQHoe hardenedWoodHoe = new ItemHardenedWoodHoe();
 
     public static void initialiseItems()
     {
@@ -22,5 +21,8 @@ public class EarlyEQItems
 
         GameRegistry.registerItem(hardenedWoodPickaxe, Names.Tools.HardenedWood.PICKAXE);
         GameRegistry.registerItem(hardenedWoodSword, Names.Tools.HardenedWood.SWORD);
+        GameRegistry.registerItem(hardenedWoodAxe, Names.Tools.HardenedWood.AXE);
+        GameRegistry.registerItem(hardenedWoodShovel, Names.Tools.HardenedWood.SHOVEL);
+        GameRegistry.registerItem(hardenedWoodHoe, Names.Tools.HardenedWood.HOE);
     }
 }
