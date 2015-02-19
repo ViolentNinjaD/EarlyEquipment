@@ -1,2 +1,5 @@
 #Items
 item.earlyequipment:bindingCloth.name=Binding Cloth
+
+#CreativeTabs
+itemGroup.earlyequipment=Early Equipment

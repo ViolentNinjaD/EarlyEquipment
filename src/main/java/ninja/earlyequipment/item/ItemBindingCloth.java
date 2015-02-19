@@ -8,5 +8,6 @@ public class ItemBindingCloth extends ItemEarlyEQ
     {
         super();
         this.setUnlocalizedName(Names.Items.BINDING_CLOTH);
+        this.maxStackSize = 64;
     }
 }
