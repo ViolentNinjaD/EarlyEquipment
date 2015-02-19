@@ -3,6 +3,10 @@ item.earlyequipment:bindingCloth.name=Binding Cloth
 
 #Hardened Wood Tools
 item.earlyequipment:hardenedWoodPickaxe.name=Hardened Wood Pickaxe
+item.earlyequipment:hardenedWoodSword.anem=Hardened Wood Sword
+item.earlyequipment:hardenedWoodAxe.anem=Hardened Wood Axe
+item.earlyequipment:hardenedWoodShovel.anem=Hardened Wood Shovel
+item.earlyequipment:hardenedWoodHoe.anem=Hardened Wood Hoe
 
 #CreativeTabs
 itemGroup.earlyequipment=Early Equipment
