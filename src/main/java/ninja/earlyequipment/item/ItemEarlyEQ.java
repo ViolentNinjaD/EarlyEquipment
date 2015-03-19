@@ -13,7 +13,7 @@ public class ItemEarlyEQ extends Item
     public ItemEarlyEQ()
     {
         super();
-        this.maxStackSize = 1;
+        this.maxStackSize = 64;
         this.setCreativeTab(EarlyEQTabs.tabMain);
         this.setNoRepair();
     }

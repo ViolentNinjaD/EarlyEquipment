@@ -1,7 +1,8 @@
 #Items
 item.earlyequipment:bindingCloth.name=Binding Cloth
 
-#Hardened Wood Tools
+#Hardened Wood
+item.earlyequipment:hardenedWood.name=Hardened Wood
 item.earlyequipment:hardenedWoodPickaxe.name=Hardened Wood Pickaxe
 item.earlyequipment:hardenedWoodSword.name=Hardened Wood Sword
 item.earlyequipment:hardenedWoodAxe.name=Hardened Wood Axe
