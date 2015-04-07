@@ -1,0 +1,12 @@
+#Items
+item.earlyequipment:bindingCloth.name=Bandages
+
+#Hardened Wood Tools
+item.earlyequipment:hardenedWoodPickaxe.name=Pioche de bois renforcée
+item.earlyequipment:hardenedWoodSword.name=Épée de bois renforcée
+item.earlyequipment:hardenedWoodAxe.name=Hache de bois renforcée
+item.earlyequipment:hardenedWoodShovel.name=Pelle de bois renforcée
+item.earlyequipment:hardenedWoodHoe.name=Houe de bois renforcée
+
+#CreativeTabs
+itemGroup.earlyequipment=Premier équipement
